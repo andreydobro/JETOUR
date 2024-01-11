@@ -1,0 +1,51 @@
+.header {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 77px;
+    opacity: 1;
+}
+
+.header__fixed {
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: rgba(18, 50, 63, 0.70);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    opacity: 1;
+}
+
+.header__info {
+    height: 30px;
+    background-color: var(--text-color);
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    // background-color: #102229;
+}
+
+.header__logo {
+    width: 158px;
+    height: 15px;
+}
+
+.header__menu-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25px;
+    height: 17px;
+    background-image: url(../../images/icons/mobail-menu.svg);
+}
+
+.header__form {
+    padding-top: 25px;
+    background-color: #fff;
+}

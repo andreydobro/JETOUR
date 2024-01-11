@@ -1,0 +1,69 @@
+.form {
+    width: 330px;
+    margin-top: 25px;
+}
+
+.form__input {
+    width: 100%;
+    height: 53px;
+    padding-left: 15px;
+    background: rgba(25, 62, 77, 0.15);
+    margin-bottom: 10px;
+}
+
+.form__information {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.form__check {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    // border: 1px solid var(--ui-white);
+    // background-image: url(../images/icons/check-yellow.svg.svg);
+    // background-size: 9px;
+    // background-repeat: no-repeat;
+    background-color: var(--ui-white);
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.10);
+}
+
+.form__info-text {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    /* 150% */
+
+    & u {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+}
+
+.form__button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: var(--accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 135px;
+    color: var(--text-white);
+    padding: 26px 40px 27px 15px;
+
+    & p {
+        width: 120px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 100.023%;
+    }
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+html, body {
+    font-family: var(--font-main);
+    color: var(--font-color);
+}
+
+.container {
+    max-width: 1530px;
+    min-width: 350px;
+    margin: 0 auto;
+    padding:  0 10px;
+}
